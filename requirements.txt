@@ -1,0 +1,13 @@
+timm
+attrs
+datargs
+sacred
+pandas
+torch==1.8.1
+scipy==1.4.1
+torchvision==0.9.1
+sklearn
+matplotlib
+wandb==0.12.7
+gym
+protobuf==3.20.*
