@@ -25,9 +25,9 @@ The library has the following executables:
 
 Example scripts:
 
-```
+```bash
 python dafl/runner_upper_bound_estimate.py --num-clusters 10
-python dafl/runner_target_shift.py --dataset fmnist --shift 5clients --batch-size 64 --num-steps 5000 --client-mode multi --wandb-name "TS/fmnist/shift=5clients/FedAvg"
+python dafl/runner_target_shift.py --dataset fmnist --shift 5clients --batch-size 64 --num-steps 15000 --client-mode multi --wandb-name "TS/fmnist/shift=5clients/FedAvg"
 python dafl/runner_target_shift.py --dataset fmnist --shift 5clients --batch-size 64 --num-steps 5000 --client-mode multi --use-true-ratio --wandb-name "TS/fmnist/shift=5clients/FITW-ERM"
 python dafl/runner_target_shift.py --dataset fmnist --shift 5clients --batch-size 64 --num-steps 5000 --client-mode multi --use-true-ratio --combine-testsets --wandb-name "TS/fmnist/shift=5clients/FTW-ERM"
 ```
